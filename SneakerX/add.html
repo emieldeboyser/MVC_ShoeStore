@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SneakerX</title>
+    <link rel="stylesheet" href="css/style.css?v=1673881297" />
+  </head>
+  <body>
+    <header>
+        <div class="brand">SneakerX</div>
+        <form class="search">
+          <input type="text" crocs="Search" />
+          <button type="submit">Search</button>
+        </form>
+        <div>
+          <span>Dieter De Weirdt</span>
+          <a href="login.html" class="">Logout</a>
+          <a href="add.html" class="button">Add sneaker</a>
+        </div>
+      </header>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Nike</a>
+        <a href="#">Air Jordan</a>
+        <a href="#">Adidas</a>
+        <a href="#">New Balance</a>
+        <a href="#">Saucony</a>
+        <a href="#">Jeezy</a>
+        <a href="#">Crocs</a>
+      </nav>
+    <main>
+      <h2>Een sneaker toevoegen</h2>
+      <form>
+        <label>
+          Naam
+          <input type="text" maxlength="256" required>
+        </label>
+        <label>
+          Omschrijving
+          <textarea></textarea>
+        </label>
+        <label>
+          Categorie
+          <select required>
+            <option value="">Kies een categorie</option>
+            <option value="1">Nike</option>
+            <option value="2">Air Jordan</option>
+            <option value="3">Adidas</option>
+          </select>
+        </label>
+
+        <label>
+          Maat
+          <input type="number" min="20" max="55" required>
+        </label>
+
+        <label>
+          Afbeelding
+          <input type="file" accept="image/*" >
+        </label>
+
+        <button type="submit" class="button">Toevoegen</button>
+      </form>
+    </main>
+
+    <footer>
+      <span>Voornaam Familienaam</span>
+      <span>Webdevelopment I</span>
+      <span>Arteveldehogeschool</span>
+    </footer>
+  </body>
+</html>
